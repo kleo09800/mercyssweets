@@ -1,0 +1,49 @@
+/* Google Fonts */
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+  }
+  
+  .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+  }
+  
+  /* Carousel */
+  .carousel {
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .carousel-inner {
+    height: 100%; /* Full height of the carousel */
+  }
+  
+  .carousel-item {
+    height: 100%; /* Full height of each carousel item */
+  }
+  
+  .carousel-item img {
+    height: 100%; /* Full height of the image */
+    width: 100%; /* Full width of the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 60px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+  }
